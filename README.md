@@ -4,7 +4,7 @@
 
 [![Survey: Seeking Experts](https://img.shields.io/badge/Survey-Seeking_Experts-brightgreen?style=for-the-badge)](https://forms.gle/BCwYFtfqxmZewkL97)
 [![Paper: R2CASS @ WWW 2026](https://img.shields.io/badge/Paper-R2CASS_@_WWW_2026-blue?style=for-the-badge)](https://thewebconf.org/)
-[![arXiv](https://img.shields.io/badge/arXiv-2601.21963-B31B1B.svg?style=for-the-badge)](https://arxiv.org/abs/2601.21963)
+[![arXiv](https://img.shields.io/badge/arXiv-2602.02100-B31B1B.svg?style=for-the-badge)](https://arxiv.org/abs/2602.02100)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ---
@@ -68,7 +68,8 @@ If you use this work in your research, please cite:
   publisher = {ACM},
   address   = {New York, NY, USA},
   location  = {Dubai, United Arab Emirates},
-  note      = {To appear}
+  DOI       = {10.1145/3774905.3795484},
+  note      = {To appear. Also available as arXiv:2602.02100}
 }
 ```
 
