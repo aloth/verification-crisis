@@ -8,6 +8,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Built with olcli](https://img.shields.io/badge/Built_with-olcli-orange?style=for-the-badge&logo=latex)](https://github.com/aloth/olcli)
 
+<p align="center">
+  <img src="figures/verification-crisis-genai-disinformation-expert-survey-hero.png" alt="The Verification Crisis — examining how generative AI erodes trust in digital media" width="400">
+</p>
+
 ---
 
 ## Call for Expert Participation
