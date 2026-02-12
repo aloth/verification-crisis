@@ -9,7 +9,7 @@
 [![Built with olcli](https://img.shields.io/badge/Built_with-olcli-orange?style=for-the-badge&logo=latex)](https://github.com/aloth/olcli)
 
 <p align="center">
-  <img src="figures/verification-crisis-genai-disinformation-expert-survey-hero.png" alt="The Verification Crisis — examining how generative AI erodes trust in digital media" width="400">
+  <img src="figures/verification-crisis-genai-disinformation-media-manipulation-wide.png" alt="The Verification Crisis — examining how generative AI erodes trust in digital media" width="700">
 </p>
 
 ---
