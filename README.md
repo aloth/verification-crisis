@@ -7,6 +7,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2602.02100-B31B1B.svg?style=for-the-badge)](https://arxiv.org/abs/2602.02100)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Built with olcli](https://img.shields.io/badge/Built_with-olcli-orange?style=for-the-badge&logo=latex)](https://github.com/aloth/olcli)
+[![Mastodon](https://img.shields.io/badge/Mastodon-@xlth-6364FF?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.social/@xlth)
 
 <p align="center">
   <img src="figures/verification-crisis-genai-disinformation-media-manipulation-wide.png" alt="The Verification Crisis — examining how generative AI erodes trust in digital media" width="700">
