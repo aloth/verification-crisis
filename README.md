@@ -60,6 +60,14 @@ We are seeking **domain experts** with professional experience in:
 
 ---
 
+## Dataset
+
+The expert survey data (21 domain experts, 58 variables, 7-point Likert scales, Best-Worst Scaling, open-ended responses) is available on Zenodo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18703601.svg)](https://doi.org/10.5281/zenodo.18703601)
+
+Access is restricted to academic research. Submit a request via the Zenodo page.
+
 ## Citation
 
 If you use this work in your research, please cite:
