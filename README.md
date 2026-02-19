@@ -87,7 +87,8 @@ If you use this work in your research, please cite:
 
 - **Alexander Loth** — Frankfurt University of Applied Sciences, Germany  
   [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--9327--6865-green?logo=orcid)](https://orcid.org/0009-0003-9327-6865)
-- **Martin Kappes** — Frankfurt University of Applied Sciences, Germany
+- **Martin Kappes** — Frankfurt University of Applied Sciences, Germany  
+  [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8768--8359-green?logo=orcid)](https://orcid.org/0000-0002-8768-8359)
 - **Marc-Oliver Pahl** — IMT Atlantique, UMR IRISA, Chaire Cyber CNI, France  
   [![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5241--3809-green?logo=orcid)](https://orcid.org/0000-0001-5241-3809)
 
