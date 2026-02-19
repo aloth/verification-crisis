@@ -47,6 +47,13 @@ We are seeking **domain experts** with professional experience in:
 - **Time commitment:** Approximately 15 minutes
 - **Stay informed:** Receive a summary of findings upon publication
 
+### Survey Instrument
+
+The expert survey questionnaire is available in two formats:
+
+- **Online:** [Google Forms](https://forms.gle/EUdbkEtZpEuPbVVz5)
+- **Printable PDF:** [survey-print.pdf](survey-print.pdf) (generated from [LaTeX source](appendices/survey-questionnaire.tex))
+
 ---
 
 ## Key Concepts
