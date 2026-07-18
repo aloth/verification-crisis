@@ -85,14 +85,22 @@ If you use this work in your research, please cite:
   title     = {The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance},
   booktitle = {Companion Proceedings of the ACM Web Conference 2026 (WWW '26 Companion)},
   year      = {2026},
-  month     = apr,
+  month     = may,
   publisher = {ACM},
   address   = {New York, NY, USA},
   location  = {Dubai, United Arab Emirates},
-  DOI       = {10.1145/3774905.3795484},
+  doi       = {10.1145/3774905.3795484},
   note      = {To appear. Also available as arXiv:2602.02100}
 }
 ```
+
+### Related Publications
+
+This expert-survey work is part of a broader research program on expert and human perception of AI-generated disinformation:
+
+- **When Experts Disagree: Mapping Consensus and Conflict in Expert Assessments of AI-Generated Disinformation** (AIES 2026, Malmö). Extends this survey with a consensus/conflict analysis of expert assessments.
+- **Can Humans Tell? A Dual-Axis Study of Human Perception of LLM-Generated News** (WebSci Companion '26). [doi:10.1145/3795513.3807431](https://doi.org/10.1145/3795513.3807431)
+- **The Indistinguishability Threshold: Measuring Cognitive Vulnerabilities to AI-Generated Disinformation** (WebSci Companion '26, PhD Symposium). [doi:10.1145/3795513.3807421](https://doi.org/10.1145/3795513.3807421)
 
 > **Note:** This paper presents findings from **Wave 1** of our longitudinal study. We are actively collecting expert responses for **Wave 2** and plan a follow-up publication with expanded insights. [Participate now](https://forms.gle/BCwYFtfqxmZewkL97) to contribute to future research.
 

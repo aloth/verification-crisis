@@ -27,8 +27,38 @@ preferred-citation:
       orcid: "https://orcid.org/0000-0001-5241-3809"
   collection-title: "Companion Proceedings of the ACM Web Conference 2026 (WWW '26 Companion)"
   year: 2026
-  month: 4
+  month: 5
   publisher:
     name: ACM
   location:
     name: "Dubai, United Arab Emirates"
+  doi: "10.1145/3774905.3795484"
+references:
+  - type: conference-paper
+    title: "When Experts Disagree: Mapping Consensus and Conflict in Expert Assessments of AI-Generated Disinformation"
+    authors:
+      - family-names: Loth
+        given-names: Alexander
+      - family-names: Schütz
+        given-names: Mina
+      - family-names: Kappes
+        given-names: Martin
+      - family-names: Pahl
+        given-names: Marc-Oliver
+    collection-title: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES 2026)"
+    year: 2026
+    location:
+      name: "Malmö, Sweden"
+    notes: "Accepted, to appear."
+  - type: conference-paper
+    title: "Can Humans Tell? A Dual-Axis Study of Human Perception of LLM-Generated News"
+    authors:
+      - family-names: Loth
+        given-names: Alexander
+      - family-names: Kappes
+        given-names: Martin
+      - family-names: Pahl
+        given-names: Marc-Oliver
+    collection-title: "18th ACM Web Science Conference (WebSci Companion '26)"
+    year: 2026
+    doi: "10.1145/3795513.3807431"
