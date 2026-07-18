@@ -98,7 +98,7 @@ If you use this work in your research, please cite:
 
 This expert-survey work is part of a broader research program on expert and human perception of AI-generated disinformation:
 
-- **When Experts Disagree: Mapping Consensus and Conflict in Expert Assessments of AI-Generated Disinformation** (AIES 2026, Malmö). Extends this survey with a consensus/conflict analysis of expert assessments.
+- **The Mitigation Paradox: How AI-Disinformation Experts Converge on Threats but Polarize on Solutions** (AIES 2026, Malmö). The companion paper to this survey: a structured analysis of *where experts agree and where they split*. Threat assessments converge sharply (deepfakes rated the single most urgent risk), yet mitigation preferences polarize - government regulation is simultaneously the most-chosen "most effective" strategy and rated least effective by a sizable minority of the same panel. We term this gap the *Mitigation Paradox*, and argue for layered, portfolio-style governance over single-strategy commitments.
 - **Can Humans Tell? A Dual-Axis Study of Human Perception of LLM-Generated News** (WebSci Companion '26). [doi:10.1145/3795513.3807431](https://doi.org/10.1145/3795513.3807431)
 - **The Indistinguishability Threshold: Measuring Cognitive Vulnerabilities to AI-Generated Disinformation** (WebSci Companion '26, PhD Symposium). [doi:10.1145/3795513.3807421](https://doi.org/10.1145/3795513.3807421)
 
