@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-title: "The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance"
-message: "If you use this work, please cite our paper."
+title: "Expert Survey on GenAI Disinformation: Survey Instrument"
+message: "If you use this instrument or the survey data, please cite the journal article below."
 type: dataset
 authors:
   - family-names: Loth
@@ -8,48 +8,55 @@ authors:
     orcid: "https://orcid.org/0009-0003-9327-6865"
   - family-names: Kappes
     given-names: Martin
+    orcid: "https://orcid.org/0000-0002-8768-8359"
   - family-names: Pahl
     given-names: Marc-Oliver
     orcid: "https://orcid.org/0000-0001-5241-3809"
 repository-code: "https://github.com/aloth/verification-crisis"
 license: MIT
 preferred-citation:
-  type: conference-paper
-  title: "The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance"
+  type: article
+  title: "Experts Disagree on How to Fight AI Disinformation, but Agree That Health and Politics Need Different Solutions"
   authors:
     - family-names: Loth
       given-names: Alexander
       orcid: "https://orcid.org/0009-0003-9327-6865"
     - family-names: Kappes
       given-names: Martin
+      orcid: "https://orcid.org/0000-0002-8768-8359"
     - family-names: Pahl
       given-names: Marc-Oliver
       orcid: "https://orcid.org/0000-0001-5241-3809"
-  collection-title: "Companion Proceedings of the ACM Web Conference 2026 (WWW '26 Companion)"
+  journal: "Harvard Kennedy School Misinformation Review"
+  volume: 7
+  issue: 4
   year: 2026
-  month: 6
-  publisher:
-    name: ACM
-  location:
-    name: "Dubai, United Arab Emirates"
-  doi: "10.1145/3774905.3795484"
+  month: 7
+  doi: "10.37016/mr-2020-205"
+  url: "https://doi.org/10.37016/mr-2020-205"
 references:
   - type: conference-paper
-    title: "When Experts Disagree: Mapping Consensus and Conflict in Expert Assessments of AI-Generated Disinformation"
+    title: "The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance"
     authors:
       - family-names: Loth
         given-names: Alexander
-      - family-names: Schütz
-        given-names: Mina
+        orcid: "https://orcid.org/0009-0003-9327-6865"
       - family-names: Kappes
         given-names: Martin
+        orcid: "https://orcid.org/0000-0002-8768-8359"
       - family-names: Pahl
         given-names: Marc-Oliver
-    collection-title: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES 2026)"
+        orcid: "https://orcid.org/0000-0001-5241-3809"
+    collection-title: "Companion Proceedings of the ACM Web Conference 2026 (WWW '26 Companion)"
     year: 2026
+    month: 6
+    publisher:
+      name: ACM
     location:
-      name: "Malmö, Sweden"
-    notes: "Accepted, to appear."
+      name: "Dubai, United Arab Emirates"
+    start: 980
+    end: 988
+    doi: "10.1145/3774905.3795484"
   - type: conference-paper
     title: "Can Humans Tell? A Dual-Axis Study of Human Perception of LLM-Generated News"
     authors:
@@ -62,3 +69,29 @@ references:
     collection-title: "18th ACM Web Science Conference (WebSci Companion '26)"
     year: 2026
     doi: "10.1145/3795513.3807431"
+  - type: data
+    title: "Replication Data for: Experts Disagree on How to Fight AI Disinformation, but Agree That Health and Politics Need Different Solutions"
+    authors:
+      - family-names: Loth
+        given-names: Alexander
+      - family-names: Kappes
+        given-names: Martin
+      - family-names: Pahl
+        given-names: Marc-Oliver
+    publisher:
+      name: "Harvard Dataverse"
+    year: 2026
+    doi: "10.7910/DVN/BXO2QA"
+  - type: data
+    title: "Expert Survey: AI-Driven Disinformation Threats and Countermeasures"
+    authors:
+      - family-names: Loth
+        given-names: Alexander
+      - family-names: Kappes
+        given-names: Martin
+      - family-names: Pahl
+        given-names: Marc-Oliver
+    publisher:
+      name: Zenodo
+    year: 2026
+    doi: "10.5281/zenodo.18703601"

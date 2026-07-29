@@ -1,9 +1,10 @@
 # The Verification Crisis
 
-**Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance**
+**Expert survey on GenAI disinformation - the shared instrument behind our publications on threat perception and mitigation**
 
 [![Survey: Seeking Experts](https://img.shields.io/badge/Survey-Seeking_Experts-brightgreen?style=for-the-badge)](https://forms.gle/BCwYFtfqxmZewkL97)
-[![Paper: R2CASS @ WWW 2026](https://img.shields.io/badge/Paper-R2CASS_@_WWW_2026-blue?style=for-the-badge)](https://thewebconf.org/)
+[![HKS Misinformation Review](https://img.shields.io/badge/Journal-HKS_Misinformation_Review-A51C30?style=for-the-badge)](https://doi.org/10.37016/mr-2020-205)
+[![Paper: R2CASS @ WWW 2026](https://img.shields.io/badge/Paper-R2CASS_@_WWW_2026-blue?style=for-the-badge)](https://doi.org/10.1145/3774905.3795484)
 [![arXiv](https://img.shields.io/badge/arXiv-2602.02100-B31B1B.svg?style=for-the-badge)](https://arxiv.org/abs/2602.02100)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Built with olcli](https://img.shields.io/badge/Built_with-olcli-orange?style=for-the-badge&logo=latex)](https://github.com/aloth/olcli)
@@ -67,17 +68,37 @@ The expert survey questionnaire is available in two formats:
 
 ---
 
-## Dataset
+## Datasets
 
-The expert survey data (21 domain experts, 58 variables, 7-point Likert scales, Best-Worst Scaling, open-ended responses) is available on Zenodo:
+The survey ran with 21 domain experts and 58 variables (7-point Likert scales, Best-Worst Scaling, open-ended responses). Two deposits exist, with different scopes and access models.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18703601.svg)](https://doi.org/10.5281/zenodo.18703601)
+| Deposit | Contents | Access |
+|---|---|---|
+| [Harvard Dataverse `10.7910/DVN/BXO2QA`](https://doi.org/10.7910/DVN/BXO2QA) | De-identified responses, aggregated tables, and the survey instrument, as published with the HKS Misinformation Review article | Open, CC0 1.0 |
+| [Zenodo `10.5281/zenodo.18703601`](https://doi.org/10.5281/zenodo.18703601) | Full Wave 1 response data underlying the WWW '26 analysis | Restricted to academic research; request via Zenodo |
 
-Access is restricted to academic research. Submit a request via the Zenodo page.
+The Dataverse deposit is open because it carries no personal data. The Zenodo deposit retains material that cannot be released openly, so access is granted on request.
 
 ## Citation
 
-If you use this work in your research, please cite:
+This repository holds the survey instrument. The peer-reviewed journal article reporting the survey findings is the preferred citation:
+
+```bibtex
+@article{loth2026hksexperts,
+  author  = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
+  title   = {Experts Disagree on How to Fight {AI} Disinformation,
+             but Agree That Health and Politics Need Different Solutions},
+  journal = {Harvard Kennedy School Misinformation Review},
+  volume  = {7},
+  number  = {4},
+  year    = {2026},
+  month   = jul,
+  doi     = {10.37016/mr-2020-205},
+  url     = {https://doi.org/10.37016/mr-2020-205}
+}
+```
+
+If you draw on the Wave 1 analysis specifically, please cite the WWW '26 Companion paper as well:
 
 ```bibtex
 @inproceedings{loth2026verification,
@@ -95,15 +116,19 @@ If you use this work in your research, please cite:
 }
 ```
 
-### Related Publications
+### Publications using this instrument
 
-This expert-survey work is part of a broader research program on expert and human perception of AI-generated disinformation:
+| Publication | Venue | Data |
+|---|---|---|
+| **Experts Disagree on How to Fight AI Disinformation, but Agree That Health and Politics Need Different Solutions** [doi:10.37016/mr-2020-205](https://doi.org/10.37016/mr-2020-205) | HKS Misinformation Review 7(4), 2026 | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open |
+| **The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance** [doi:10.1145/3774905.3795484](https://doi.org/10.1145/3774905.3795484) | WWW '26 Companion (R2CASS), Wave 1 | [Zenodo](https://doi.org/10.5281/zenodo.18703601), restricted |
 
-- **The Mitigation Paradox: How AI-Disinformation Experts Converge on Threats but Polarize on Solutions** (AIES 2026, Malmö). The companion paper to this survey: a structured analysis of *where experts agree and where they split*. Threat assessments converge sharply (deepfakes rated the single most urgent risk), yet mitigation preferences polarize - government regulation is simultaneously the most-chosen "most effective" strategy and rated least effective by a sizable minority of the same panel. We term this gap the *Mitigation Paradox*, and argue for layered, portfolio-style governance over single-strategy commitments.
+Related work on human rather than expert perception, using a separate study design:
+
 - **Can Humans Tell? A Dual-Axis Study of Human Perception of LLM-Generated News** (WebSci Companion '26). [doi:10.1145/3795513.3807431](https://doi.org/10.1145/3795513.3807431)
 - **The Indistinguishability Threshold: Measuring Cognitive Vulnerabilities to AI-Generated Disinformation** (WebSci Companion '26, PhD Symposium). [doi:10.1145/3795513.3807421](https://doi.org/10.1145/3795513.3807421)
 
-> **Note:** This paper presents findings from **Wave 1** of our longitudinal study. We are actively collecting expert responses for **Wave 2** and plan a follow-up publication with expanded insights. [Participate now](https://forms.gle/BCwYFtfqxmZewkL97) to contribute to future research.
+> **Note:** The published findings cover **Wave 1** of this longitudinal study. Expert responses for **Wave 2** are being collected now. [Participate](https://forms.gle/BCwYFtfqxmZewkL97) to contribute to future research.
 
 ---
 
