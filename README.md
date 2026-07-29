@@ -85,12 +85,13 @@ If you use this work in your research, please cite:
   title     = {The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance},
   booktitle = {Companion Proceedings of the ACM Web Conference 2026 (WWW '26 Companion)},
   year      = {2026},
-  month     = may,
+  month     = jun,
   publisher = {ACM},
   address   = {New York, NY, USA},
   location  = {Dubai, United Arab Emirates},
+  pages     = {980--988},
   doi       = {10.1145/3774905.3795484},
-  note      = {To appear. Also available as arXiv:2602.02100}
+  url       = {https://arxiv.org/abs/2602.02100}
 }
 ```
 
