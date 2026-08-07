@@ -20,7 +20,7 @@
 
 > *"We are at a critical inflection point. GenAI has reduced the cost of producing disinformation to near-zero. Your expertise matters."*
 
-We are conducting a **longitudinal research study** to understand how experts perceive the evolving threat landscape of AI-generated disinformation. This is **Wave 2** of our ongoing study—your voice will directly shape policy recommendations and reproducible mitigation frameworks.
+We are conducting a **longitudinal research study** to understand how experts perceive the evolving threat landscape of AI-generated disinformation. Waves 1 and 2 are closed and published (see [Study Waves](#study-waves)). The survey **remains open** for further responses: additional submissions accumulate toward a possible Wave 3. No Wave 3 publication is currently planned, but the larger the expert sample grows, the more analysis it can support.
 
 <p align="center">
   <a href="https://forms.gle/BCwYFtfqxmZewkL97">
@@ -68,14 +68,26 @@ The expert survey questionnaire is available in two formats:
 
 ---
 
+## Study Waves
+
+The survey is longitudinal and **cumulative**: each wave reports the full sample collected to date, so Wave 2 includes all Wave 1 respondents. The waves are not disjoint samples, and the totals must not be added together.
+
+| Wave | N (cumulative) | New in wave | Collection period | Publications |
+|---|---|---|---|---|
+| **Wave 1** | 21 | 21 | Jul 2025 - Dec 2025 | WWW '26 Companion (R2CASS) |
+| **Wave 2** | 54 | +33 | Jan 2026 - Mar 2026 | HKS Misinformation Review 7(4); AIES 2026 |
+| **Wave 3** | open | - | Ongoing | Optional; none planned |
+
+All waves use the same instrument ([survey-questionnaire.tex](appendices/survey-questionnaire.tex)), so responses are directly comparable across waves.
+
 ## Datasets
 
-The survey ran with 21 domain experts and 58 variables (7-point Likert scales, Best-Worst Scaling, open-ended responses). Two deposits exist, with different scopes and access models.
+The instrument covers 58 variables (7-point Likert scales, Best-Worst Scaling, open-ended responses). Two deposits exist, with different scopes and access models.
 
-| Deposit | Contents | Access |
-|---|---|---|
-| [Harvard Dataverse `10.7910/DVN/BXO2QA`](https://doi.org/10.7910/DVN/BXO2QA) | De-identified responses, aggregated tables, and the survey instrument, as published with the HKS Misinformation Review article | Open, CC0 1.0 |
-| [Zenodo `10.5281/zenodo.18703601`](https://doi.org/10.5281/zenodo.18703601) | Full Wave 1 response data underlying the WWW '26 analysis | Restricted to academic research; request via Zenodo |
+| Deposit | Wave | Contents | Access |
+|---|---|---|---|
+| [Harvard Dataverse `10.7910/DVN/BXO2QA`](https://doi.org/10.7910/DVN/BXO2QA) | Wave 2 (N=54) | De-identified responses, aggregated tables, and the survey instrument, as published with the HKS Misinformation Review article | Open, CC0 1.0 |
+| [Zenodo `10.5281/zenodo.18703601`](https://doi.org/10.5281/zenodo.18703601) | Wave 1 (N=21) | Full Wave 1 response data underlying the WWW '26 analysis | Restricted to academic research; request via Zenodo |
 
 The Dataverse deposit is open because it carries no personal data. The Zenodo deposit retains material that cannot be released openly, so access is granted on request.
 
@@ -118,17 +130,18 @@ If you draw on the Wave 1 analysis specifically, please cite the WWW '26 Compani
 
 ### Publications using this instrument
 
-| Publication | Venue | Data |
-|---|---|---|
-| **Experts Disagree on How to Fight AI Disinformation, but Agree That Health and Politics Need Different Solutions** [doi:10.37016/mr-2020-205](https://doi.org/10.37016/mr-2020-205) | HKS Misinformation Review 7(4), 2026 | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open |
-| **The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance** [doi:10.1145/3774905.3795484](https://doi.org/10.1145/3774905.3795484) | WWW '26 Companion (R2CASS), Wave 1 | [Zenodo](https://doi.org/10.5281/zenodo.18703601), restricted |
+| Publication | Venue | Wave | Data |
+|---|---|---|---|
+| **Experts Disagree on How to Fight AI Disinformation, but Agree That Health and Politics Need Different Solutions** [doi:10.37016/mr-2020-205](https://doi.org/10.37016/mr-2020-205) | HKS Misinformation Review 7(4), 2026 | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open |
+| **The Mitigation Paradox: How AI-Disinformation Experts Converge on Threats but Polarize on Solutions** | AIES 2026, Malmo | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open |
+| **The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance** [doi:10.1145/3774905.3795484](https://doi.org/10.1145/3774905.3795484) | WWW '26 Companion (R2CASS) | Wave 1 (N=21) | [Zenodo](https://doi.org/10.5281/zenodo.18703601), restricted |
 
 Related work on human rather than expert perception, using a separate study design:
 
 - **Can Humans Tell? A Dual-Axis Study of Human Perception of LLM-Generated News** (WebSci Companion '26). [doi:10.1145/3795513.3807431](https://doi.org/10.1145/3795513.3807431)
 - **The Indistinguishability Threshold: Measuring Cognitive Vulnerabilities to AI-Generated Disinformation** (WebSci Companion '26, PhD Symposium). [doi:10.1145/3795513.3807421](https://doi.org/10.1145/3795513.3807421)
 
-> **Note:** The published findings cover **Wave 1** of this longitudinal study. Expert responses for **Wave 2** are being collected now. [Participate](https://forms.gle/BCwYFtfqxmZewkL97) to contribute to future research.
+> **Note:** Waves 1 and 2 are closed; their findings are published in the venues listed above. The survey remains open and further expert responses are welcome - they accumulate toward a possible Wave 3, which is not yet tied to a planned publication. [Participate](https://forms.gle/BCwYFtfqxmZewkL97) to contribute to future research.
 
 ---
 
