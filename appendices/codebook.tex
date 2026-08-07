@@ -1,0 +1,160 @@
+% appendices/codebook.tex
+% Expert Survey Codebook -- companion to appendices/survey-questionnaire.tex
+
+\chapter{Expert Survey Codebook}
+\label{ch:codebook}
+
+This codebook documents the data collected through the expert survey on
+generative-AI--driven disinformation. It complements the survey instrument
+reproduced in \texttt{appendices/survey-questionnaire.tex} and is intended to
+enable independent reproduction of the empirical analyses reported in the
+associated publications.
+
+\section{Dataset Overview}
+\label{sec:codebook-overview}
+
+\begin{table}[htbp]
+\centering
+\caption{Expert survey dataset overview.}
+\label{tab:codebook-overview}
+\begin{tabular}{lll}
+\toprule
+\textbf{Property} & \textbf{Value} & \textbf{Notes} \\
+\midrule
+File         & \texttt{expert\_survey\_responses.csv} & Google Forms export \\
+Respondents  & 54                                     & After consent filter \\
+Items        & 54                                     & 5 sections (see below) \\
+Period       & July 2025 -- March 2026                & Rolling recruitment \\
+Languages    & English                                & Single-language instrument \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Anonymization.}
+The released dataset retains only pseudonymized respondent identifiers.
+Respondents who explicitly consented to attribution at the end of the survey
+are listed by name in the ``Acknowledgements'' field; their open-ended
+responses may be quoted with attribution. All other identifying fields
+(name, affiliation, profile link) are stripped from the public release.
+
+\noindent\textbf{Recruitment.}
+Targeted invitation of disinformation researchers, AI ethicists, journalists,
+fact-checkers, and policy experts via professional mailing lists, snowball
+sampling, and direct outreach. No financial incentive was offered.
+
+\section{Variable Groups}
+\label{sec:codebook-variables}
+
+The 54 items group into five thematic blocks, summarized in
+Table~\ref{tab:codebook-blocks}.
+
+\begin{table}[htbp]
+\centering
+\caption{Survey blocks and item counts.}
+\label{tab:codebook-blocks}
+\begin{tabular}{llrl}
+\toprule
+\textbf{Block} & \textbf{Section} & \textbf{Items} & \textbf{Type} \\
+\midrule
+Screening      & 1                & 2  & Categorical / link  \\
+Demographics   & 2                & 4  & Ordinal / categorical \\
+Threats        & 3                & 20 & 7-point Likert (4 mod.\ $\times$ 5 contexts) \\
+Risks          & 4                & 2  & Multi-select + free text \\
+Mitigation     & 5                & 11 & Likert + forced ranking \\
+Open feedback  & 6--9             & 15 & Free text \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Threat Perceptions (20 items)}
+Respondents rated four AI-generated content modalities
+(\textit{Text}, \textit{Images}, \textit{Audio / voice cloning},
+\textit{Video / deepfakes}) on a 7-point Likert scale
+($1 = $ Not a threat, $7 = $ Severe threat) for the general case
+and within four specific domains
+(\textit{Political}, \textit{Health}, \textit{Financial}, \textit{Social}).
+Each domain block also includes one optional free-text follow-up.
+
+\subsection{Mitigation Effectiveness (11 items)}
+Five mitigation strategies were rated on the same 7-point scale,
+then forced-ranked from 1 (most effective) to 5 (least effective):
+\begin{enumerate}[label=(\alph*), leftmargin=2.5em]
+    \item Digital watermarking / provenance standards
+    \item Platform enforcement policies
+    \item Technical detection tools
+    \item Government regulation (e.g., AI~Act, DSA)
+    \item Media / public literacy programmes
+\end{enumerate}
+Two single-choice items capture the perceived MOST and LEAST effective
+strategy independent of the ranking, plus one free-text item on the
+biggest adoption obstacle.
+
+\subsection{Urgent Risks (2 items)}
+A multi-select item with 12 pre-specified risk categories asked respondents
+to select up to three urgent risks. A follow-up free-text item invited
+justification or real-world incident references.
+
+\section{Descriptive Summary}
+\label{sec:codebook-descriptives}
+
+Tables~\ref{tab:desc-threats} and~\ref{tab:desc-mitigation} report
+mean / SD across all 54 respondents on the headline Likert items.
+Full per-group breakdowns are provided in the main paper.
+
+\begin{table}[htbp]
+\centering
+\caption{Threat perceptions (1--7 Likert, $N=54$).}
+\label{tab:desc-threats}
+\begin{tabular}{lcccc}
+\toprule
+              & \textbf{Text} & \textbf{Images} & \textbf{Audio} & \textbf{Video} \\
+\midrule
+General       & 5.57 (1.36) & 5.74 (1.13) & 5.91 (1.25) & 6.19 (1.19) \\
+Political     & 5.76 (1.41) & 5.98 (1.18) & 5.96 (1.20) & 6.31 (1.15) \\
+Health        & 5.80 (1.32) & 5.13 (1.54) & 5.02 (1.66) & 5.13 (1.55) \\
+Financial     & 5.30 (1.51) & 4.91 (1.44) & 5.65 (1.62) & 5.31 (1.46) \\
+Social        & 5.59 (1.35) & 5.76 (1.20) & 5.65 (1.44) & 6.00 (1.29) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Mitigation strategies: effectiveness ratings (1--7) and forced rank
+(1 = most, 5 = least; $N=54$).}
+\label{tab:desc-mitigation}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Strategy} & \textbf{Rating} & \textbf{Rank} \\
+\midrule
+Digital watermarking      & 5.20 (1.52) & 2.98 (1.43) \\
+Platform enforcement      & 4.91 (1.40) & 3.26 (1.40) \\
+Technical detection       & 4.57 (1.38) & 3.28 (1.27) \\
+Government regulation     & 5.24 (1.63) & 3.07 (1.51) \\
+Media / public literacy   & 5.07 (1.65) & 2.98 (1.48) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Top urgent risks (votes among 54 respondents, top 5):}
+Election interference via deepfake video~(42),
+Cyberattacks / phishing~(25),
+Harassment / non-consensual deepfake porn~(25),
+Audio-clone financial fraud~(21),
+Large-scale text spambots~(18).
+
+\section{Data Access and Reuse}
+\label{sec:codebook-access}
+
+The de-identified response file, aggregated tables, and the survey instrument
+are archived at Harvard Dataverse
+(\texttt{doi:10.7910/DVN/BXO2QA}, open, CC0~1.0). The fuller response data
+underlying the Wave~1 analysis is deposited at Zenodo
+(\texttt{doi:10.5281/zenodo.18703601}); because that deposit retains material
+that cannot be released openly, access is granted on request for academic
+research. The survey instrument is reproduced in full in
+\texttt{appendices/survey-questionnaire.tex}.
+
+This repository is licensed under the MIT License; see \texttt{LICENSE}.
+Please cite the publications listed in \texttt{CITATION.cff} when reusing
+the instrument or the data.

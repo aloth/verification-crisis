@@ -1,0 +1,196 @@
+% appendices/prompts.tex
+% LLM prompts used in the qualitative analysis of the expert survey free-text responses.
+
+\chapter{LLM Prompts}
+\label{ch:prompts}
+
+All analyses used \texttt{gpt-4o-mini} via the OpenAI API with  \texttt{temperature=0.1} (structured JSON) or \texttt{0.2} (free-text).
+Placeholders in braces are filled programmatically at runtime.
+
+\paragraph{Data transmitted to the API and privacy safeguards.}
+Only participants' open-ended (free-text) responses were sent to the
+GPT-4o-mini endpoint, each accompanied solely by an internal reference
+number (the CSV row index, shown as \texttt{[R\{rowId\}]}) so that
+model-generated quotes could be traced back to the source data. No names,
+affiliations, profile links, email addresses, demographic fields, or
+closed-item responses were included in the API payload. All direct and
+quasi-identifying fields---name, affiliation, and profile link---were
+removed prior to any third-party processing, consistent with the
+anonymization procedure documented in the codebook; the free-text
+answers were additionally checked for embedded identifiers before
+transmission. Only responses from participants who provided explicit
+consent were included: non-consenting responses were removed by a consent
+filter before any processing, including the LLM-assisted step. The consent
+instrument in force throughout data collection explicitly informed
+participants that ``open-ended responses may be analyzed using third-party
+AI services (e.g., OpenAI); only de-identified text is transmitted and it
+is not used to train the providers' models,'' on the legal basis of
+explicit consent (GDPR Art.~6(1)(a)). Transmitted text was not used to
+train the provider's models.
+
+% ── Prompt set 1: per-question structured disagreement analysis ──────────────
+\subsection{Per-Question Disagreement Analysis}
+\label{app:prompt-per-question}
+
+Used to produce the structured disagreement objects (one call per survey question per grouping dimension).
+
+\paragraph{System}
+\begin{quote}\small\ttfamily
+You are a qualitative research analyst for an academic paper.
+Your output will be used directly by the authors to identify specific
+evidence for claims---not to write prose for them.
+Be precise and quote actual phrases.
+When citing representative\_quotes, include the [R\{rowId\}] citation
+prefix exactly as it appears in the input.
+Return ONLY valid JSON.
+\end{quote}
+
+\paragraph{User}
+\begin{quote}\small\ttfamily
+Survey question: ``\{question\_label\}''
+
+Responses grouped by professional background
+(each prefixed with [R\{rowId\}] = source CSV row):
+
+\{grouped\_responses\}
+
+Identify agreements and disagreements across groups.
+Return ONLY valid JSON matching this schema exactly:
+
+\{
+  "agreements": ["<shared view across groups>"],
+  "disagreements": [
+    \{
+      "topic": "<short label>",
+      "positions": \{"<GroupName>": "<their view, or null if not expressed>"\},
+      "representative\_quotes": \{
+        "<GroupName>": "<[R\{rowId\}] short verbatim or near-verbatim phrase>"
+      \}
+    \}
+  ],
+  "group\_unique\_concerns": \{
+    "<GroupName>": ["<concern mentioned only by this group>"]
+  \}
+\}
+\end{quote}
+
+% ── Prompt set 2: overall cross-cutting synthesis ────────────────────────────
+\subsection{Overall Cross-Cutting Synthesis}
+\label{app:prompt-overall}
+
+Used once per grouping dimension after all per-question calls, to
+produce the \texttt{overall} section of each JSON file.
+
+\paragraph{System}
+\begin{quote}\small\ttfamily
+You are a qualitative research analyst for an academic paper on
+AI-generated disinformation. Provide structured findings that the
+authors can reference and cite.
+When citing examples, include the [R\{rowId\}] citation prefix exactly
+as it appears in the input.
+Return ONLY valid JSON.
+\end{quote}
+
+\paragraph{User}
+\begin{quote}\small\ttfamily
+Below are selected open-ended survey responses from different groups in
+an expert survey on AI-generated disinformation threats.
+Each response is prefixed with [R\{rowId\}] = its source CSV row.
+
+\{grouped\_responses\}
+
+Identify cross-cutting agreements and disagreements.
+Return ONLY valid JSON matching this schema exactly:
+
+\{
+  "cross\_cutting\_agreements": ["<shared view recurring across questions>"],
+  "cross\_cutting\_disagreements": [
+    \{
+      "topic": "<short label>",
+      "positions": \{"<GroupName>": "<their view>"\},
+      "significance": "<why this disagreement matters for the paper>"
+    \}
+  ],
+  "group\_profiles": \{
+    "<GroupName>": "<2--3 sentence profile of their overall perspective>"
+  \},
+  "key\_tensions": [
+    \{
+      "tension": "<description>",
+      "groups\_involved": ["<GroupName>"],
+      "example": "<[R\{rowId\}] brief illustrative example from the data>"
+    \}
+  ]
+\}
+\end{quote}
+
+% ── Prompt set 3: per-question free-text theme extraction ────────────────────
+\subsection{Per-Question Theme Extraction}
+\label{app:prompt-themes}
+
+Used in \texttt{cluster\_open\_responses.py} to produce a plain-text
+thematic summary per question (all respondents pooled).
+
+\paragraph{System}
+\begin{quote}\small\ttfamily
+You are a qualitative research analyst.
+Identify the main themes and key points from survey responses concisely.
+Use bullet points. Be specific; quote short phrases and cite the
+[R\{rowId\}] source identifier when referencing a specific response.
+\end{quote}
+
+\paragraph{User}
+\begin{quote}\small\ttfamily
+Survey question: ``\{question\_label\}''
+
+Responses (n=\{N\}, each prefixed [R\{rowId\}] = CSV row number):
+\{responses\}
+
+List the 3--5 main themes/points raised across these responses.
+\end{quote}
+
+% ── Prompt set 4: cross-question overall synthesis ───────────────────────────
+\subsection{Cross-Question Synthesis}
+\label{app:prompt-synthesis}
+
+\paragraph{System}
+\begin{quote}\small\ttfamily
+You are a qualitative research analyst summarising expert survey data
+about AI-generated disinformation. Be concise and insightful.
+\end{quote}
+
+\paragraph{User}
+\begin{quote}\small\ttfamily
+Below are selected responses across all open-ended questions from an
+expert survey on AI-generated disinformation threats.
+
+\{responses\_by\_question\}
+
+Provide a cross-cutting synthesis: What are the 5--7 overarching themes
+or concerns that recur across multiple questions?
+Note any tensions or disagreements.
+\end{quote}
+
+% ── Prompt set 5: profession group comparison ────────────────────────────────
+\subsection{Profession-Group Comparison}
+\label{app:prompt-profession}
+
+\paragraph{System}
+\begin{quote}\small\ttfamily
+You are a qualitative research analyst.
+Compare perspectives across professional groups concisely.
+\end{quote}
+
+\paragraph{User}
+\begin{quote}\small\ttfamily
+Below are open-ended survey responses grouped by the respondent's
+professional background, from an expert survey on AI-generated
+disinformation.
+
+\{grouped\_responses\}
+
+Identify:
+1. Points where the groups broadly AGREE.
+2. Points where the groups DISAGREE or have notably different emphases.
+3. Any unique concerns that appear only within a specific group.
+\end{quote}
