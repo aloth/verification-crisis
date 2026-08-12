@@ -86,10 +86,21 @@ The instrument covers 58 variables (7-point Likert scales, Best-Worst Scaling, o
 
 | Deposit | Wave | Contents | Access |
 |---|---|---|---|
-| [Harvard Dataverse `10.7910/DVN/BXO2QA`](https://doi.org/10.7910/DVN/BXO2QA) | Wave 2 (N=54) | De-identified responses, aggregated tables, and the survey instrument, as published with the HKS Misinformation Review article | Open, CC0 1.0 |
-| [Zenodo `10.5281/zenodo.18703601`](https://doi.org/10.5281/zenodo.18703601) | Wave 1 (N=21) | Full Wave 1 response data underlying the WWW '26 analysis | Restricted to academic research; request via Zenodo |
+| [Harvard Dataverse `10.7910/DVN/BXO2QA`](https://doi.org/10.7910/DVN/BXO2QA) | Wave 2 (N=54) | De-identified responses (54 observations, 41 variables), aggregated tables, and the survey instrument, as published with the HKS Misinformation Review article | Open, CC0 1.0 |
+| [Zenodo `10.5281/zenodo.18703600`](https://doi.org/10.5281/zenodo.18703600) | Latest (currently Wave 2) | Full response data, 58 variables. Concept DOI, always resolves to the newest version | Restricted to academic research; request via Zenodo |
 
-The Dataverse deposit is open because it carries no personal data. The Zenodo deposit retains material that cannot be released openly, so access is granted on request.
+The Dataverse deposit is open because the identifying columns are removed: it carries the same 54 responses with 17 fewer variables (name, affiliation, profile link, timestamp and open-text fields). The Zenodo deposit retains that material, so access is granted on request.
+
+### Zenodo versions
+
+Cite a version DOI when your analysis has to be reproducible; cite the concept DOI when you mean "the current data".
+
+| Version | Version DOI | Wave | N (cumulative) | Snapshot | Status |
+|---|---|---|---|---|---|
+| 2.0.0 | [`10.5281/zenodo.21904817`](https://doi.org/10.5281/zenodo.21904817) | Wave 2 | 54 | 23 Mar 2026 | Current |
+| 1.0.0 | [`10.5281/zenodo.18703601`](https://doi.org/10.5281/zenodo.18703601) | Wave 1 | 21 | 19 Feb 2026 | Superseded, cited by the WWW '26 Companion paper |
+
+> The Wave 1 version DOI stays valid and must not be retired: it is the deposit cited in the published WWW '26 Companion analysis.
 
 ## Citation
 
@@ -134,7 +145,7 @@ If you draw on the Wave 1 analysis specifically, please cite the WWW '26 Compani
 |---|---|---|---|
 | **Experts Disagree on How to Fight AI Disinformation, but Agree That Health and Politics Need Different Solutions** [doi:10.37016/mr-2020-205](https://doi.org/10.37016/mr-2020-205) | HKS Misinformation Review 7(4), 2026 | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open |
 | **The Mitigation Paradox: How AI-Disinformation Experts Converge on Threats but Polarize on Solutions** | AIES 2026, Malmo | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open |
-| **The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance** [doi:10.1145/3774905.3795484](https://doi.org/10.1145/3774905.3795484) | WWW '26 Companion (R2CASS) | Wave 1 (N=21) | [Zenodo](https://doi.org/10.5281/zenodo.18703601), restricted |
+| **The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance** [doi:10.1145/3774905.3795484](https://doi.org/10.1145/3774905.3795484) | WWW '26 Companion (R2CASS) | Wave 1 (N=21) | [Zenodo v1.0.0](https://doi.org/10.5281/zenodo.18703601), restricted |
 
 Related work on human rather than expert perception, using a separate study design:
 
