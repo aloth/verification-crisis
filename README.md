@@ -173,7 +173,7 @@ If you draw on the Wave 1 analysis specifically, please cite the WWW '26 Compani
 | Publication | Venue | Wave | Data |
 |---|---|---|---|
 | **Experts Disagree on How to Fight AI Disinformation, but Agree That Health and Politics Need Different Solutions** [doi:10.37016/mr-2020-205](https://doi.org/10.37016/mr-2020-205) | HKS Misinformation Review 7(4), 2026 | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open · [Zenodo v2.0.0](https://doi.org/10.5281/zenodo.21904817), restricted |
-| **The Mitigation Paradox: How AI-Disinformation Experts Converge on Threats but Polarize on Solutions** | AIES 2026, Malmo | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open · [Zenodo v2.0.0](https://doi.org/10.5281/zenodo.21904817), restricted |
+| **When Experts Disagree: Mapping Consensus and Conflict in Expert Assessments of AI-Generated Disinformation** | AIES 2026, Malmo | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open · [Zenodo v2.0.0](https://doi.org/10.5281/zenodo.21904817), restricted |
 | **The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance** [doi:10.1145/3774905.3795484](https://doi.org/10.1145/3774905.3795484) | WWW '26 Companion (R2CASS) | Wave 1 (N=21) | [Zenodo v1.0.0](https://doi.org/10.5281/zenodo.18703601), restricted |
 
 Where both are listed, the Dataverse deposit is the open, de-identified subset (41 of 58 variables) and the Zenodo version DOI is the complete response file. Wave 1 has no Dataverse mirror.
@@ -196,9 +196,17 @@ Related work on human rather than expert perception, using a separate study desi
 - **Marc-Oliver Pahl** — IMT Atlantique, UMR IRISA, Chaire Cyber CNI, France  
   [![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5241--3809-green?logo=orcid)](https://orcid.org/0000-0001-5241-3809)
 
-## Related Work
+## Related Projects
 
-This research builds on the [JudgeGPT](https://github.com/aloth/JudgeGPT) research platform—open-source infrastructure for studying human perception of AI-generated content.
+This survey is one strand of a wider research program on generated disinformation:
+
+| Project | Description |
+|:---|:---|
+| [JudgeGPT](https://github.com/aloth/JudgeGPT) | Empirical platform for evaluating AI-generated news authenticity |
+| [RogueGPT](https://github.com/aloth/RogueGPT) | Controlled stimulus generator for AI news authenticity research |
+| [CRED-1](https://github.com/aloth/cred-1) | Open multi-signal domain credibility dataset (2,673 domains) |
+| [Origin Lens](https://github.com/aloth/origin-lens) | iOS app for C2PA content credentials and EXIF verification |
+| [provenance-linkage](https://github.com/aloth/provenance-linkage) | Reproducibility bundle for a benchmark audit of AI-text detection |
 
 ## License
 
