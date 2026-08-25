@@ -126,7 +126,7 @@ If you draw on the Wave 1 analysis specifically, please cite the WWW '26 Compani
 ```bibtex
 @inproceedings{loth2026verification,
   author    = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
-  title     = {The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance},
+  title     = {The Verification Crisis: Expert Perceptions of {GenAI} Disinformation and the Case for Reproducible Provenance},
   booktitle = {Companion Proceedings of the ACM Web Conference 2026 (WWW '26 Companion)},
   year      = {2026},
   month     = jun,
@@ -135,7 +135,36 @@ If you draw on the Wave 1 analysis specifically, please cite the WWW '26 Compani
   location  = {Dubai, United Arab Emirates},
   pages     = {980--988},
   doi       = {10.1145/3774905.3795484},
-  url       = {https://arxiv.org/abs/2602.02100}
+  eprint    = {2602.02100},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CY}
+}
+
+@inproceedings{loth2026aiesexperts,
+  author    = {Loth, Alexander and Sch{\"u}tz, Mina and Kappes, Martin and Pahl, Marc-Oliver},
+  title     = {When Experts Disagree: Mapping Consensus and Conflict in Expert Assessments of {AI}-Generated Disinformation},
+  booktitle = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES 2026)},
+  year      = {2026},
+  month     = oct,
+  note      = {Accepted. To appear.}
+}
+
+@dataset{loth2026hksexpertsdata,
+  author    = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
+  title     = {Replication Data for: Experts Disagree on How to Fight {AI} Disinformation, but Agree That Health and Politics Need Different Solutions},
+  year      = {2026},
+  publisher = {Harvard Dataverse},
+  version   = {V1},
+  doi       = {10.7910/DVN/BXO2QA}
+}
+
+@dataset{loth2026expertdata,
+  author    = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
+  title     = {Expert Survey: {AI}-Driven Disinformation Threats and Countermeasures},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {2.0.0},
+  doi       = {10.5281/zenodo.21904817}
 }
 ```
 

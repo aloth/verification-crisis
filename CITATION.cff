@@ -69,6 +69,24 @@ references:
     collection-title: "18th ACM Web Science Conference (WebSci Companion '26)"
     year: 2026
     doi: "10.1145/3795513.3807431"
+  - type: conference-paper
+    title: >
+      When Experts Disagree: Mapping Consensus and Conflict in Expert
+      Assessments of AI-Generated Disinformation
+    authors:
+      - family-names: Loth
+        given-names: Alexander
+      - family-names: Schuetz
+        given-names: Mina
+      - family-names: Kappes
+        given-names: Martin
+      - family-names: Pahl
+        given-names: Marc-Oliver
+    collection-title: >
+      Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+      (AIES 2026)
+    year: 2026
+    notes: "Accepted, to appear"
   - type: data
     title: "Replication Data for: Experts Disagree on How to Fight AI Disinformation, but Agree That Health and Politics Need Different Solutions"
     authors:
@@ -94,4 +112,5 @@ references:
     publisher:
       name: Zenodo
     year: 2026
-    doi: "10.5281/zenodo.18703601"
+    version: "2.0.0"
+    doi: "10.5281/zenodo.21904817"
