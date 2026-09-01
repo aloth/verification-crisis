@@ -87,9 +87,13 @@ The instrument covers 58 variables (7-point Likert scales, Best-Worst Scaling, o
 | Deposit | Wave | Contents | Access |
 |---|---|---|---|
 | [Harvard Dataverse `10.7910/DVN/BXO2QA`](https://doi.org/10.7910/DVN/BXO2QA) | Wave 2 (N=54) | De-identified responses (54 observations, 41 variables), aggregated tables, and the survey instrument, as published with the HKS Misinformation Review article | Open, CC0 1.0 |
-| [Zenodo `10.5281/zenodo.18703600`](https://doi.org/10.5281/zenodo.18703600) | Latest (currently Wave 2) | Full response data, 58 variables. Concept DOI, always resolves to the newest version | Restricted to academic research; request via Zenodo |
+| [Zenodo `10.5281/zenodo.18703600`](https://doi.org/10.5281/zenodo.18703600) | Latest (currently Wave 2) | Privacy-reduced response file. Concept DOI, always resolves to the newest version | Restricted to academic research; request via Zenodo |
 
-The Dataverse deposit is open because the identifying columns are removed: it carries the same 54 responses with 17 fewer variables (name, affiliation, profile link, timestamp and open-text fields). The Zenodo deposit retains that material, so access is granted on request.
+Both deposits are privacy-reduced, and neither carries the identity columns. The Dataverse deposit holds the same 54 responses with 17 fewer variables (name, affiliation, profile link, timestamp and open-text fields), as published with the HKS Misinformation Review article. The Zenodo deposit from v2.1.0 onward withholds the three identity columns and generalizes the two free-text fields; no response was changed and no respondent was removed.
+
+The reason for that reduction is worth stating, because it is a finding in its own right. 27 of the 54 respondents asked for anonymity, and the instrument honored it: name, affiliation and profile were left empty for them. What undercut it was a free-text field asking about recent activity, which all 27 filled in with entries specific enough to identify the person. Identity columns are therefore withheld for every respondent and the activity field is categorized rather than quoted. One rule applies to all 54, not two regimes.
+
+Access to the Zenodo deposit is restricted for a different reason than the Dataverse deposit is open. It follows from the consent under which the responses were given: redistribution outside a requesting research context was not part of what respondents agreed to. No claim of anonymity is made for the released file either way. The smallest role category contains two respondents, and a category of that size does not establish anonymity.
 
 ### Zenodo versions
 
@@ -97,7 +101,8 @@ Cite a version DOI when your analysis has to be reproducible; cite the concept D
 
 | Version | Version DOI | Wave | N (cumulative) | Snapshot | Status |
 |---|---|---|---|---|---|
-| 2.0.0 | [`10.5281/zenodo.21904817`](https://doi.org/10.5281/zenodo.21904817) | Wave 2 | 54 | 23 Mar 2026 | Current |
+| 2.1.0 | [`10.5281/zenodo.22226924`](https://doi.org/10.5281/zenodo.22226924) | Wave 2 | 54 | 23 Mar 2026 | Current |
+| 2.0.0 | [`10.5281/zenodo.21904817`](https://doi.org/10.5281/zenodo.21904817) | Wave 2 | 54 | 23 Mar 2026 | Superseded |
 | 1.0.0 | [`10.5281/zenodo.18703601`](https://doi.org/10.5281/zenodo.18703601) | Wave 1 | 21 | 19 Feb 2026 | Superseded, cited by the WWW '26 Companion paper |
 
 > The Wave 1 version DOI stays valid and must not be retired: it is the deposit cited in the published WWW '26 Companion analysis.
@@ -159,12 +164,13 @@ If you draw on the Wave 1 analysis specifically, please cite the WWW '26 Compani
 }
 
 @dataset{loth2026expertdata,
-  author    = {Loth, Alexander and Kappes, Martin and Pahl, Marc-Oliver},
+  author    = {Loth, Alexander},
   title     = {Expert Survey: {AI}-Driven Disinformation Threats and Countermeasures},
   year      = {2026},
   publisher = {Zenodo},
-  version   = {2.0.0},
-  doi       = {10.5281/zenodo.21904817}
+  version   = {2.1.0},
+  doi       = {10.5281/zenodo.22226924},
+  note      = {Concept DOI 10.5281/zenodo.18703600 always resolves to the latest version}
 }
 ```
 
@@ -172,11 +178,11 @@ If you draw on the Wave 1 analysis specifically, please cite the WWW '26 Compani
 
 | Publication | Venue | Wave | Data |
 |---|---|---|---|
-| **Experts Disagree on How to Fight AI Disinformation, but Agree That Health and Politics Need Different Solutions** [doi:10.37016/mr-2020-205](https://doi.org/10.37016/mr-2020-205) | HKS Misinformation Review 7(4), 2026 | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open · [Zenodo v2.0.0](https://doi.org/10.5281/zenodo.21904817), restricted |
-| **When Experts Disagree: Mapping Consensus and Conflict in Expert Assessments of AI-Generated Disinformation** | AIES 2026, Malmo | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open · [Zenodo v2.0.0](https://doi.org/10.5281/zenodo.21904817), restricted |
+| **Experts Disagree on How to Fight AI Disinformation, but Agree That Health and Politics Need Different Solutions** [doi:10.37016/mr-2020-205](https://doi.org/10.37016/mr-2020-205) | HKS Misinformation Review 7(4), 2026 | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open · [Zenodo v2.1.0](https://doi.org/10.5281/zenodo.22226924), restricted |
+| **When Experts Disagree: Mapping Consensus and Conflict in Expert Assessments of AI-Generated Disinformation** | AIES 2026, Malmo | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open · [Zenodo v2.1.0](https://doi.org/10.5281/zenodo.22226924), restricted |
 | **The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance** [doi:10.1145/3774905.3795484](https://doi.org/10.1145/3774905.3795484) | WWW '26 Companion (R2CASS) | Wave 1 (N=21) | [Zenodo v1.0.0](https://doi.org/10.5281/zenodo.18703601), restricted |
 
-Where both are listed, the Dataverse deposit is the open, de-identified subset (41 of 58 variables) and the Zenodo version DOI is the complete response file. Wave 1 has no Dataverse mirror.
+Where both are listed, the Dataverse deposit is the open, de-identified subset (41 of 58 variables) and the Zenodo version DOI is the privacy-reduced response file under restricted access. Wave 1 has no Dataverse mirror.
 
 Related work on human rather than expert perception, using a separate study design:
 
