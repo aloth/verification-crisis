@@ -13,6 +13,9 @@ authors:
     given-names: Marc-Oliver
     orcid: "https://orcid.org/0000-0001-5241-3809"
 repository-code: "https://github.com/aloth/verification-crisis"
+url: "https://github.com/aloth/verification-crisis"
+version: "1.1.0"
+date-released: "2026-09-01"
 license: MIT
 preferred-citation:
   type: article
@@ -105,12 +108,9 @@ references:
     authors:
       - family-names: Loth
         given-names: Alexander
-      - family-names: Kappes
-        given-names: Martin
-      - family-names: Pahl
-        given-names: Marc-Oliver
+        orcid: "https://orcid.org/0009-0003-9327-6865"
     publisher:
       name: Zenodo
     year: 2026
-    version: "2.0.0"
-    doi: "10.5281/zenodo.21904817"
+    version: "2.1.0"
+    doi: "10.5281/zenodo.22226924"
