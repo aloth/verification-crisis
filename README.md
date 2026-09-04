@@ -52,7 +52,7 @@ We are seeking **domain experts** with professional experience in:
 
 The expert survey questionnaire is available in two formats:
 
-- **Online:** [Google Forms](https://forms.gle/EUdbkEtZpEuPbVVz5)
+- **Online:** [Google Forms](https://forms.gle/BCwYFtfqxmZewkL97)
 - **Printable PDF:** [survey-print.pdf](survey-print.pdf) (generated from [LaTeX source](appendices/survey-questionnaire.tex))
 
 ---
@@ -106,6 +106,10 @@ Cite a version DOI when your analysis has to be reproducible; cite the concept D
 | 1.0.0 | [`10.5281/zenodo.18703601`](https://doi.org/10.5281/zenodo.18703601) | Wave 1 | 21 | 19 Feb 2026 | Superseded, cited by the WWW '26 Companion paper |
 
 > The Wave 1 version DOI stays valid and must not be retired: it is the deposit cited in the published WWW '26 Companion analysis.
+
+### Checking the deposit
+
+[`analysis/`](analysis/) recomputes the summary table that ships with the Dataverse deposit, directly from the response file beside it. All 33 tabulated items reproduce. It reads only the two openly licensed files, needs nothing beyond the Python standard library, and exits non-zero on any disagreement, so it also works as a regression check. See [`analysis/README.md`](analysis/README.md) for how to run it.
 
 ## Citation
 
