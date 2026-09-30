@@ -14,8 +14,8 @@ authors:
     orcid: "https://orcid.org/0000-0001-5241-3809"
 repository-code: "https://github.com/aloth/verification-crisis"
 url: "https://github.com/aloth/verification-crisis"
-version: "1.2.0"
-date-released: "2026-09-04"
+version: "1.2.1"
+date-released: "2026-09-30"
 license: MIT
 preferred-citation:
   type: article
@@ -74,8 +74,8 @@ references:
     doi: "10.1145/3795513.3807431"
   - type: conference-paper
     title: >
-      When Experts Disagree: Mapping Consensus and Conflict in Expert
-      Assessments of AI-Generated Disinformation
+      The Mitigation Paradox: How AI-Disinformation Experts Converge on
+      Threats but Polarize on Solutions
     authors:
       - family-names: Loth
         given-names: Alexander
@@ -112,12 +112,12 @@ references:
     publisher:
       name: Zenodo
     year: 2026
-    version: "2.1.0"
+    version: "2.1.1"
     doi: "10.5281/zenodo.18703600"
     identifiers:
       - type: doi
         value: "10.5281/zenodo.18703600"
         description: "Zenodo concept DOI (always resolves to the latest version)"
       - type: doi
-        value: "10.5281/zenodo.22226924"
-        description: "Zenodo version DOI (2.1.0)"
+        value: "10.5281/zenodo.23054423"
+        description: "Zenodo version DOI (2.1.1)"

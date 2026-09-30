@@ -11,7 +11,7 @@
 [![Mastodon](https://img.shields.io/badge/Mastodon-@xlth-6364FF?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.social/@xlth)
 
 <p align="center">
-  <img src="figures/verification-crisis-genai-disinformation-media-manipulation-wide.png" alt="The Verification Crisis — examining how generative AI erodes trust in digital media" width="700">
+  <img src="figures/verification-crisis-genai-disinformation-media-manipulation-wide.png" alt="The Verification Crisis: examining how generative AI erodes trust in digital media" width="700">
 </p>
 
 ---
@@ -64,7 +64,7 @@ The expert survey questionnaire is available in two formats:
 | **Verification Crisis** | The structural shift where GenAI reduces the cost of producing high-fidelity disinformation toward zero, risking the erosion of shared factual basis in democratic deliberation |
 | **Epistemic Fragmentation** | The breakdown of a shared reality as personalized synthetic content creates isolated information bubbles |
 | **Synthetic Consensus** | The artificial manufacture of apparent agreement through AI-generated content simulating public opinion |
-| **Reproducible Provenance** | Transparent, standardized infrastructure for verifying information origins—treating information integrity as infrastructure |
+| **Reproducible Provenance** | Transparent, standardized infrastructure for verifying information origins, treating information integrity as infrastructure |
 
 ---
 
@@ -89,23 +89,18 @@ The instrument covers 58 variables (7-point Likert scales, Best-Worst Scaling, o
 | [Harvard Dataverse `10.7910/DVN/BXO2QA`](https://doi.org/10.7910/DVN/BXO2QA) | Wave 2 (N=54) | De-identified responses (54 observations, 41 variables), aggregated tables, and the survey instrument, as published with the HKS Misinformation Review article | Open, CC0 1.0 |
 | [Zenodo `10.5281/zenodo.18703600`](https://doi.org/10.5281/zenodo.18703600) | Latest (currently Wave 2) | Privacy-reduced response file. Concept DOI, always resolves to the newest version | Restricted to academic research; request via Zenodo |
 
-Both deposits are privacy-reduced, and neither carries the identity columns. The Dataverse deposit holds the same 54 responses with 17 fewer variables (name, affiliation, profile link, timestamp and open-text fields), as published with the HKS Misinformation Review article. The Zenodo deposit from v2.1.0 onward withholds the three identity columns and generalizes the two free-text fields; no response was changed and no respondent was removed.
+Both deposits are privacy-reduced and carry no name, affiliation or profile link. The Dataverse deposit holds the same 54 responses with 15 fewer variables than the Zenodo deposit (timestamp and the open-ended answers). In the Zenodo deposit, the role and recent-activity fields are generalized to categories, and links, e-mail addresses and handles are removed from the remaining free-text answers.
 
-The reason for that reduction is worth stating, because it is a finding in its own right. 27 of the 54 respondents asked for anonymity, and the instrument honored it: name, affiliation and profile were left empty for them. What undercut it was a free-text field asking about recent activity, which all 27 filled in with entries specific enough to identify the person. Identity columns are therefore withheld for every respondent and the activity field is categorized rather than quoted. One rule applies to all 54, not two regimes.
+27 of the 54 respondents asked for anonymity, and free-text answers can identify a person even without a name, so the same reduction applies to every respondent. Access to the Zenodo deposit is restricted because the consent under which the responses were given covers use within a requesting research context, not open redistribution. No claim of anonymity is made for the released file.
 
-Access to the Zenodo deposit is restricted for a different reason than the Dataverse deposit is open. It follows from the consent under which the responses were given: redistribution outside a requesting research context was not part of what respondents agreed to. No claim of anonymity is made for the released file either way. The smallest role category contains two respondents, and a category of that size does not establish anonymity.
-
-### Zenodo versions
+### Citing a Zenodo version
 
 Cite a version DOI when your analysis has to be reproducible; cite the concept DOI when you mean "the current data".
 
-| Version | Version DOI | Wave | N (cumulative) | Snapshot | Status |
-|---|---|---|---|---|---|
-| 2.1.0 | [`10.5281/zenodo.22226924`](https://doi.org/10.5281/zenodo.22226924) | Wave 2 | 54 | 23 Mar 2026 | Current |
-| 2.0.0 | [`10.5281/zenodo.21904817`](https://doi.org/10.5281/zenodo.21904817) | Wave 2 | 54 | 23 Mar 2026 | Superseded |
-| 1.0.0 | [`10.5281/zenodo.18703601`](https://doi.org/10.5281/zenodo.18703601) | Wave 1 | 21 | 19 Feb 2026 | Superseded, cited by the WWW '26 Companion paper |
-
-> The Wave 1 version DOI stays valid and must not be retired: it is the deposit cited in the published WWW '26 Companion analysis.
+| Version DOI | Wave | N (cumulative) | Snapshot | Use |
+|---|---|---|---|---|
+| [`10.5281/zenodo.23054423`](https://doi.org/10.5281/zenodo.23054423) (2.1.1) | Wave 2 | 54 | 23 Mar 2026 | Current version |
+| [`10.5281/zenodo.18703601`](https://doi.org/10.5281/zenodo.18703601) (1.0.0) | Wave 1 | 21 | 19 Feb 2026 | Deposit cited by the WWW '26 Companion paper |
 
 ### Checking the deposit
 
@@ -151,7 +146,7 @@ If you draw on the Wave 1 analysis specifically, please cite the WWW '26 Compani
 
 @inproceedings{loth2026aiesexperts,
   author    = {Loth, Alexander and Sch{\"u}tz, Mina and Kappes, Martin and Pahl, Marc-Oliver},
-  title     = {When Experts Disagree: Mapping Consensus and Conflict in Expert Assessments of {AI}-Generated Disinformation},
+  title     = {The Mitigation Paradox: How {AI}-Disinformation Experts Converge on Threats but Polarize on Solutions},
   booktitle = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES 2026)},
   year      = {2026},
   month     = oct,
@@ -172,8 +167,8 @@ If you draw on the Wave 1 analysis specifically, please cite the WWW '26 Compani
   title     = {Expert Survey: {AI}-Driven Disinformation Threats and Countermeasures},
   year      = {2026},
   publisher = {Zenodo},
-  version   = {2.1.0},
-  doi       = {10.5281/zenodo.22226924},
+  version   = {2.1.1},
+  doi       = {10.5281/zenodo.23054423},
   note      = {Concept DOI 10.5281/zenodo.18703600 always resolves to the latest version}
 }
 ```
@@ -182,11 +177,11 @@ If you draw on the Wave 1 analysis specifically, please cite the WWW '26 Compani
 
 | Publication | Venue | Wave | Data |
 |---|---|---|---|
-| **Experts Disagree on How to Fight AI Disinformation, but Agree That Health and Politics Need Different Solutions** [doi:10.37016/mr-2020-205](https://doi.org/10.37016/mr-2020-205) | HKS Misinformation Review 7(4), 2026 | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open · [Zenodo v2.1.0](https://doi.org/10.5281/zenodo.22226924), restricted |
-| **When Experts Disagree: Mapping Consensus and Conflict in Expert Assessments of AI-Generated Disinformation** | AIES 2026, Malmo | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open · [Zenodo v2.1.0](https://doi.org/10.5281/zenodo.22226924), restricted |
+| **Experts Disagree on How to Fight AI Disinformation, but Agree That Health and Politics Need Different Solutions** [doi:10.37016/mr-2020-205](https://doi.org/10.37016/mr-2020-205) | HKS Misinformation Review 7(4), 2026 | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open · [Zenodo v2.1.1](https://doi.org/10.5281/zenodo.23054423), restricted |
+| **The Mitigation Paradox: How AI-Disinformation Experts Converge on Threats but Polarize on Solutions** | AIES 2026, Malmö | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open · [Zenodo v2.1.1](https://doi.org/10.5281/zenodo.23054423), restricted |
 | **The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance** [doi:10.1145/3774905.3795484](https://doi.org/10.1145/3774905.3795484) | WWW '26 Companion (R2CASS) | Wave 1 (N=21) | [Zenodo v1.0.0](https://doi.org/10.5281/zenodo.18703601), restricted |
 
-Where both are listed, the Dataverse deposit is the open, de-identified subset (41 of 58 variables) and the Zenodo version DOI is the privacy-reduced response file under restricted access. Wave 1 has no Dataverse mirror.
+Where both are listed, the Dataverse deposit is the open, de-identified subset (40 response variables plus a respondent ID) and the Zenodo version DOI is the privacy-reduced response file under restricted access. Wave 1 has no Dataverse mirror.
 
 Related work on human rather than expert perception, using a separate study design:
 
@@ -199,11 +194,11 @@ Related work on human rather than expert perception, using a separate study desi
 
 ## Authors
 
-- **Alexander Loth** — Frankfurt University of Applied Sciences, Germany  
+- **Alexander Loth**, Frankfurt University of Applied Sciences, Germany  
   [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--9327--6865-green?logo=orcid)](https://orcid.org/0009-0003-9327-6865)
-- **Martin Kappes** — Frankfurt University of Applied Sciences, Germany  
+- **Martin Kappes**, Frankfurt University of Applied Sciences, Germany  
   [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8768--8359-green?logo=orcid)](https://orcid.org/0000-0002-8768-8359)
-- **Marc-Oliver Pahl** — IMT Atlantique, UMR IRISA, Chaire Cyber CNI, France  
+- **Marc-Oliver Pahl**, IMT Atlantique, UMR IRISA, Chaire Cyber CNI, France  
   [![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5241--3809-green?logo=orcid)](https://orcid.org/0000-0001-5241-3809)
 
 ## Related Projects
@@ -224,14 +219,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-We thank the R2CASS workshop organizers—Momeni, Bleier, Dessì, and Khan—for establishing the reproducibility frameworks that inform this research.
+We thank the R2CASS workshop organizers Momeni, Bleier, Dessì, and Khan for establishing the reproducibility frameworks that inform this research.
 
 ---
 
 <p align="center">
   <i>"We must treat information integrity as infrastructure. Just as we build roads and power grids, we must build the protocols for truth verification."</i>
   <br>
-  — Survey Respondent (Policy Advisor)
+  - Survey Respondent (Policy Advisor)
 </p>
 
 <p align="center">
