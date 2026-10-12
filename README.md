@@ -2,13 +2,12 @@
 
 **Expert survey on GenAI disinformation - the shared instrument behind our publications on threat perception and mitigation**
 
-[![Survey: Seeking Experts](https://img.shields.io/badge/Survey-Seeking_Experts-brightgreen?style=for-the-badge)](https://forms.gle/BCwYFtfqxmZewkL97)
-[![HKS Misinformation Review](https://img.shields.io/badge/Journal-HKS_Misinformation_Review-A51C30?style=for-the-badge)](https://doi.org/10.37016/mr-2020-205)
+[![Journal: HKS Misinformation Review](https://img.shields.io/badge/Journal-HKS_Misinformation_Review-A51C30?style=for-the-badge)](https://doi.org/10.37016/mr-2020-205)
+[![Paper: AIES 2026](https://img.shields.io/badge/Paper-AIES_2026-8A2BE2?style=for-the-badge)](https://doi.org/10.5281/zenodo.23302284)
 [![Paper: R2CASS @ WWW 2026](https://img.shields.io/badge/Paper-R2CASS_@_WWW_2026-blue?style=for-the-badge)](https://doi.org/10.1145/3774905.3795484)
-[![arXiv](https://img.shields.io/badge/arXiv-2602.02100-B31B1B.svg?style=for-the-badge)](https://arxiv.org/abs/2602.02100)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Built with olcli](https://img.shields.io/badge/Built_with-olcli-orange?style=for-the-badge&logo=latex)](https://github.com/aloth/olcli)
-[![Mastodon](https://img.shields.io/badge/Mastodon-@xlth-6364FF?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.social/@xlth)
+[![Survey: Open](https://img.shields.io/badge/Survey-Open-lightgrey?style=for-the-badge)](https://forms.gle/BCwYFtfqxmZewkL97)
 
 <p align="center">
   <img src="figures/verification-crisis-genai-disinformation-media-manipulation-wide.png" alt="The Verification Crisis: examining how generative AI erodes trust in digital media" width="700">
@@ -75,8 +74,8 @@ The survey is longitudinal and **cumulative**: each wave reports the full sample
 | Wave | N (cumulative) | New in wave | Collection period | Publications |
 |---|---|---|---|---|
 | **Wave 1** | 21 | 21 | Jul 2025 - Dec 2025 | WWW '26 Companion (R2CASS) |
-| **Wave 2** | 54 | +33 | Jan 2026 - Mar 2026 | HKS Misinformation Review 7(4); AIES 2026 |
-| **Wave 3** | open | - | Ongoing | Optional; none planned |
+| **Wave 2** | 54 | +33 | Jan 2026 - Mar 2026 | HKS Misinformation Review 7(4); [AIES 2026](https://doi.org/10.5281/zenodo.23302284) |
+| **Wave 3** | open | - | Ongoing | Form open; no wave planned |
 
 All waves use the same instrument ([survey-questionnaire.tex](appendices/survey-questionnaire.tex)), so responses are directly comparable across waves.
 
@@ -150,7 +149,7 @@ If you draw on the Wave 1 analysis specifically, please cite the WWW '26 Compani
   booktitle = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES 2026)},
   year      = {2026},
   month     = oct,
-  note      = {Accepted. To appear.}
+  note      = {Accepted. To appear. Preprint: \url{https://doi.org/10.5281/zenodo.23302284}}
 }
 
 @dataset{loth2026hksexpertsdata,
