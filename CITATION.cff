@@ -85,11 +85,16 @@ references:
         given-names: Martin
       - family-names: Pahl
         given-names: Marc-Oliver
-    collection-title: >
-      Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
-      (AIES 2026)
+    collection-title: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society"
+    publisher:
+      name: AAAI
+    volume: 9
+    issue: 3
+    start: 1722
+    end: 1733
     year: 2026
-    notes: "Accepted, to appear"
+    doi: "10.1609/aies.v9i3.43261"
+    url: "https://doi.org/10.1609/aies.v9i3.43261"
   - type: data
     title: "Replication Data for: Experts Disagree on How to Fight AI Disinformation, but Agree That Health and Politics Need Different Solutions"
     authors:

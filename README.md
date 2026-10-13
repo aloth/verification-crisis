@@ -3,7 +3,7 @@
 **Expert survey on GenAI disinformation - the shared instrument behind our publications on threat perception and mitigation**
 
 [![Journal: HKS Misinformation Review](https://img.shields.io/badge/Journal-HKS_Misinformation_Review-A51C30?style=for-the-badge)](https://doi.org/10.37016/mr-2020-205)
-[![Paper: AIES 2026](https://img.shields.io/badge/Paper-AIES_2026-8A2BE2?style=for-the-badge)](https://doi.org/10.5281/zenodo.23302284)
+[![Paper: AIES 2026](https://img.shields.io/badge/Paper-AIES_2026-8A2BE2?style=for-the-badge)](https://doi.org/10.1609/aies.v9i3.43261)
 [![Paper: R2CASS @ WWW 2026](https://img.shields.io/badge/Paper-R2CASS_@_WWW_2026-blue?style=for-the-badge)](https://doi.org/10.1145/3774905.3795484)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Built with olcli](https://img.shields.io/badge/Built_with-olcli-orange?style=for-the-badge&logo=latex)](https://github.com/aloth/olcli)
@@ -74,7 +74,7 @@ The survey is longitudinal and **cumulative**: each wave reports the full sample
 | Wave | N (cumulative) | New in wave | Collection period | Publications |
 |---|---|---|---|---|
 | **Wave 1** | 21 | 21 | Jul 2025 - Dec 2025 | WWW '26 Companion (R2CASS) |
-| **Wave 2** | 54 | +33 | Jan 2026 - Mar 2026 | HKS Misinformation Review 7(4); [AIES 2026](https://doi.org/10.5281/zenodo.23302284) |
+| **Wave 2** | 54 | +33 | Jan 2026 - Mar 2026 | HKS Misinformation Review 7(4); [AIES 2026](https://doi.org/10.1609/aies.v9i3.43261) |
 | **Wave 3** | open | - | Ongoing | Form open; no wave planned |
 
 All waves use the same instrument ([survey-questionnaire.tex](appendices/survey-questionnaire.tex)), so responses are directly comparable across waves.
@@ -146,10 +146,14 @@ If you draw on the Wave 1 analysis specifically, please cite the WWW '26 Compani
 @inproceedings{loth2026aiesexperts,
   author    = {Loth, Alexander and Sch{\"u}tz, Mina and Kappes, Martin and Pahl, Marc-Oliver},
   title     = {The Mitigation Paradox: How {AI}-Disinformation Experts Converge on Threats but Polarize on Solutions},
-  booktitle = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES 2026)},
+  booktitle = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
+  volume    = {9},
+  number    = {3},
+  pages     = {1722--1733},
   year      = {2026},
-  month     = oct,
-  note      = {Accepted. To appear. Preprint: \url{https://doi.org/10.5281/zenodo.23302284}}
+  publisher = {AAAI},
+  doi       = {10.1609/aies.v9i3.43261},
+  url       = {https://doi.org/10.1609/aies.v9i3.43261}
 }
 
 @dataset{loth2026hksexpertsdata,
@@ -177,7 +181,7 @@ If you draw on the Wave 1 analysis specifically, please cite the WWW '26 Compani
 | Publication | Venue | Wave | Data |
 |---|---|---|---|
 | **Experts Disagree on How to Fight AI Disinformation, but Agree That Health and Politics Need Different Solutions** [doi:10.37016/mr-2020-205](https://doi.org/10.37016/mr-2020-205) | HKS Misinformation Review 7(4), 2026 | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open · [Zenodo v2.1.1](https://doi.org/10.5281/zenodo.23054423), restricted |
-| **The Mitigation Paradox: How AI-Disinformation Experts Converge on Threats but Polarize on Solutions** | AIES 2026, Malmö | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open · [Zenodo v2.1.1](https://doi.org/10.5281/zenodo.23054423), restricted |
+| **The Mitigation Paradox: How AI-Disinformation Experts Converge on Threats but Polarize on Solutions** [doi:10.1609/aies.v9i3.43261](https://doi.org/10.1609/aies.v9i3.43261) | Proceedings of AIES 9(3), 1722-1733, 2026 ([preprint](https://doi.org/10.5281/zenodo.23302284)) | Wave 2 (N=54) | [Dataverse](https://doi.org/10.7910/DVN/BXO2QA), open · [Zenodo v2.1.1](https://doi.org/10.5281/zenodo.23054423), restricted |
 | **The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance** [doi:10.1145/3774905.3795484](https://doi.org/10.1145/3774905.3795484) | WWW '26 Companion (R2CASS) | Wave 1 (N=21) | [Zenodo v1.0.0](https://doi.org/10.5281/zenodo.18703601), restricted |
 
 Where both are listed, the Dataverse deposit is the open, de-identified subset (40 response variables plus a respondent ID) and the Zenodo version DOI is the privacy-reduced response file under restricted access. Wave 1 has no Dataverse mirror.
